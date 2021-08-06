@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const InputTodo = () => {
   const [description, setDescription] = useState("");
+  /*create todo*/
   const onSubmitForm = async (e) => {
     e.preventDefault();
     try {
